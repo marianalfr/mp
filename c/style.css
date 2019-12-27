@@ -1,0 +1,1450 @@
+/*Título*/
+@font-face
+{
+font-family: Titulo;
+src: url('Tit.otf');
+	 /*url('Tit.eot'); /*IE9*/
+font-style: normal;
+font-weight: normal !important;
+}
+
+/*Regular (acceder...)*/
+@font-face
+{
+font-family: Regular;
+src: url('Reg.otf');
+	 /*url('Reg.eot'); /*IE9*/
+font-style: normal;
+font-weight: normal !important;
+}
+
+/*Regular cursiva (18, Mon, Bo...)*/
+@font-face
+{
+font-family: Cursiva;
+src: url('It.otf');
+	 /*url('It.eot'); /*IE9*/
+font-style: normal;
+font-weight: normal !important;
+}
+
+/*Negrita Cursiva (calles)*/
+@font-face
+{
+font-family: NegritaCursiva;
+src: url('BoIt.otf');
+	 /*url('BoIt.eot'); /*IE9*/
+font-style: normal;
+font-weight: normal !important;
+}
+
+a:link {color: #d4d1ca; text-decoration: none;}
+a:visited {color: #d4d1ca; text-decoration: none;}
+a:hover {color:#c5c7b9; text-decoration: none;}
+a:active {color: #d4d1ca; text-decoration: none}
+
+h1 a:link {color: #d4d1ca; text-decoration: none;}
+h1 a:visited {color: #d4d1ca; text-decoration: none;}
+h1 a:hover {color:#63655D; text-decoration: none;}
+h1 a:active {color: #d4d1ca; text-decoration: none}
+
+html {
+  width:100%;
+  height:100%;
+  overflow:hidden;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	margin:0 auto;
+	font-family: 'Montserrat', sans-serif;
+	overflow: hidden;
+	color:#63655D;
+}
+
+p{
+	font-size: 12px;
+	text-transform: none;
+}
+
+h1{ 
+	font-weight: normal;
+	font-size: 12px;
+}
+
+
+h2{
+	font-weight: 700;
+	font-size: 12px;
+
+}
+
+h3{
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 3px;
+}
+
+ul,li{
+	list-style: none;
+}
+
+input, textarea{
+	border: solid 2px #d4d1ca;
+	box-shadow: none;
+	border-radius: 0px;
+	font-family:  "Muli", sans-serif;
+}
+
+input:focus, textarea:focus{
+	border: solid 3px #d4d1ca;
+	box-shadow: none;
+	outline: none;
+}
+
+input:-webkit-autofill {
+    background-color: none !important;
+}
+
+img{
+	border: 0px;
+}
+
+
+/*HEADER***************************************************************/
+
+#headerzip{
+	display: none;
+}
+
+#desplegable{
+	display: none;
+}
+
+#header{
+	width: 80%;
+	height: 150px;
+	margin: 0 auto;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #d4d1ca;
+	text-align: center;
+}
+
+#mp{
+	width: 20%;
+	float: left;
+	position: relative;
+	z-index: 40;
+}
+
+#mp img{
+	height: 180px;
+	width: auto;
+	margin: 0 auto;
+}
+
+#hl{
+	width: 40%;
+	height: 30px;
+	float: left;
+	margin-top: 100px;
+}
+
+#hl h1{
+	width: 25%;
+	float: left;
+}
+
+#hr{
+	width: 40%;
+	height: 30px;
+	float: right;
+	margin-top: 100px;
+}
+
+#hr h1{
+	width: 33%;
+	float: right;
+}
+
+
+/*MARCO***************************************************************/
+
+
+#cm{
+	width: 80%;
+	height: 70%;
+	margin: 0px auto;
+	background: url(../i/estrellas.svg);	
+	background-size: cover;
+	position: relative;
+	top: -40px;
+	overflow: hidden;
+	
+
+}
+
+#mt{
+	width: 100%;
+	height: 50%;
+	position: relative;
+	
+
+}
+
+#mti{
+	width: 50%;
+	height: 100%;
+	background: url(../i/mti.svg);
+	background-position: left top;
+	float: left;
+	left: -1px;
+	
+}
+
+#mtd{
+	width: 50%;
+	height: 100%;
+	background: url(../i/mtd.svg);
+	background-position: right top;
+	float: right;
+	position: relative;
+	display: block;
+	right: -1px;
+	
+}
+
+#mb{
+	width: 100%;
+	height: 50%;
+	position: relative;
+	
+}
+
+#mbi{
+	width: 50%;
+	height: 100%;
+	background: url(../i/mbi.svg);
+	background-position: left bottom;
+	float: left;
+	position: relative;
+	
+}
+
+#mbd{
+	width: 50%;
+	height: 100%;
+	background: url(../i/mbd.svg);
+	background-position: right bottom;
+	float: right;
+	position: relative;
+	right: -1px;
+
+}
+
+
+
+#content,
+#contentnos{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+}
+
+#contentnosmob{
+	display: none;
+}
+
+/*FOOTER***************************************************************/
+
+#footer{
+	width: 80%;
+	height: 10px;
+	margin: 0px auto;
+	text-align: center;
+	position: relative;
+	color: #d4d1ca;
+	top: -40px;
+}
+
+#footerzip{
+	display: none;
+}
+
+/*NOSOTROS***************************************************************/
+
+#ma{
+	width: 50%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+
+.mariana{
+	float: right;
+	position: absolute;
+	top: 40px;
+	right: 0px;
+	height: auto;
+	width: 55%;
+}
+
+
+.porma{
+	float: right;
+	position: absolute;
+	bottom: 8px;
+	right: 0;
+	height: auto;
+	width: 55%;
+}
+
+#pa{
+	width: 50%;
+	height: 100%;
+	float: right;
+	position: relative;
+}
+
+.pablo{
+	float: left;
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	height: auto;
+	width: 55%;
+}
+
+.porpa{
+	float: left;
+	position: absolute;
+	bottom: 8px;
+	left: 0;
+	height: auto;
+	width: 55%;
+}
+
+.fadeinelement{
+	display: none;
+}
+
+
+
+/*MARIANA Y PABLO***************************************************************/
+
+
+.txtma{
+	width: 55%;
+	float: left;
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	color: #8c8b88;
+	background: #fff;
+	padding: 10px;
+}
+
+.txtma a h1,
+.txtpa a h1{
+	font-size: 15px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.txtma a h1:before,
+.txtpa a h1:before{
+	content: '__________';
+	font-size: 20px;
+	display: block;
+	margin-bottom:20px;
+	letter-spacing: -3px;
+	color: #d4d1ca;
+}
+
+.txtpa{
+	width: 55%;
+	float: right;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	color: #8c8b88;
+	background: #fff;
+	padding: 10px;
+}
+
+/*S U E N O S******************************************************/
+
+#suenostxt{
+	width: 50%;
+	height: 50%;
+	margin: 0 auto;
+}
+
+#suenostxt h1{
+
+	letter-spacing: 3px;
+	color: #d4d1ca;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	width: 100%;
+	margin-top: 50px;
+	text-shadow: -2px -2px #fff;
+
+}
+
+#suenostxt h1:after{
+	content: '_____________________________________________';
+	font-size: 10px;
+	display: block;
+	margin-bottom: 40px;
+	letter-spacing: -3px;
+}
+
+/*L I B R O******************************************************/
+
+#izquierda{
+	width: 50%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+
+#derecha{
+	width: 50%;
+	height: 100%;
+	float: right;
+	position: relative;
+}
+
+.libro{
+	background: url('../i/b/contacto.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.containerlib{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+}
+
+.containerlib h1:after{
+	content: '_____________________________________________';
+	font-size: 10px;
+	display: block;
+	margin-bottom: 40px;
+	letter-spacing: -3px;
+}
+
+#formulario{
+	width: 75%;
+	position: relative;
+	margin: 0 auto;
+	left: 40px;
+	top: 40px;
+	float: left;
+}
+
+#formulario h1{
+
+	letter-spacing: 3px;
+	color: #d4d1ca;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: #fff;
+
+}
+
+#formulario form textarea,
+#formulario form #lvnombre{
+	width: 100%;
+}
+
+#comentarios{
+	width: 80%;
+	height: 75%;
+	overflow: auto;
+	position: relative;
+	margin: 0 auto;
+	top: 40px;
+	right: 40px;
+}
+
+
+.lvname h2,
+.comentario h2{
+	font-size: 12px;}
+
+.containerlib form{
+	text-align: left;
+}
+
+#lvnombre{
+	width: 560px;
+}
+
+.comentario{
+	margin-top: 0px;
+}
+
+#mensajevisita{
+	width: 560px;
+	height: 100px;
+	margin-top: 0px;
+}
+
+.containerlib .buttons{
+	width: 100%;
+	text-align: center;
+}
+
+.containerlib .buttons input{
+	margin: 10px auto;
+	position: relative;
+}
+
+
+
+.ec-comment-list{
+	width: 50%;
+	height: auto;
+	padding: 20px;
+	background: #fff;
+	text-align: left;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	position: absolute;
+	float: right;
+
+}
+
+.comment{
+	margin: 30px auto;
+}
+
+.comment h2{
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 4px;
+	letter-spacing: 3px;
+	color: #d4d1ca;
+
+}
+
+fieldset{
+	border:none;
+	margin-left:0px;
+	padding-left:0px;
+}
+
+
+.buttons input{
+	background: #fff;
+	margin: 30px -5px 0 0;
+	text-align: center;
+	font-size: 10px;
+	font-family: "Montserrat", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+	color: #d4d1ca;
+	padding: 0;
+	text-transform: uppercase; 
+	font-weight: bold;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+}
+
+.buttons input:hover{
+	background: #d4d1ca;
+	cursor: pointer;
+	border: solid 2px #d4d1ca;
+	color: #fff;
+}
+
+#recibido{
+	height: auto;
+	text-align: center;
+	margin-top: 50px;
+	padding: 20px;
+	float: none;
+}
+
+#contentrecibido{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	text-align: center;
+}
+
+#contentrecibido h2{
+	font-size: 16px;
+}
+
+
+
+/*C O N F I R M A C IO N   D E  A S I ST E N C I A**************************************************/
+
+input, select, textarea {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.src{
+	background: url('../i/b/src.png');
+	background-size: cover;
+	position: center;
+}
+
+
+.containersrc{
+	width: 100%;
+	height: 95%;
+	position: absolute;
+	top: 8px;
+}
+
+.containersrc h1{
+
+	letter-spacing: 3px;
+	color: #d4d1ca;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	width: 100%;
+	margin-top: 50px;
+	text-shadow: -2px -2px #fff;
+
+}
+
+.containersrc h2{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.containersrc h1:after{
+	content: '_____________________________________________';
+	font-size: 10px;
+	display: block;
+	margin-bottom: 40px;
+	letter-spacing: -3px;
+}
+
+#contentsrc{
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+#formbloque1{
+	width: 30%;
+	float: left;
+	margin: 0 auto 0px auto;
+	text-align: left;
+	padding-bottom: 5px;
+	border-right: solid 2px #d4d1ca;
+}
+
+#formbloque1 span{
+	float: left;
+}
+
+#formbloque1 span h2{
+	font-size: 12px;
+	float: left;
+}
+
+#formbloque1 span input{
+	float: left;
+	margin: 0px 0px 0 0px ;
+	background: none;
+	border: none;
+	border-bottom: solid 1px #4c4c4c;
+}
+
+#formbloque1 span input:focus{
+	border: 0px;
+	border-bottom: solid 2px #4c4c4c;
+}
+
+#formbloque1  h2{
+	margin-bottom: 5px;
+}
+
+#nombre{
+	width: 90%;
+}
+
+#apellidos{
+	width: 90%;
+}
+
+#telefono{
+	width: 90%;
+}
+
+#email{
+	width: 90%;
+}
+
+.solobomon h2{
+	font-family:'Montserrat';
+	font-size: 10px;
+	font-weight: 400;
+	width: 50%;
+	background-color: #fff;
+	margin-top: 15px;
+	color: #d4d1ca;
+}
+
+
+#formbloque2{
+	text-align: center;
+	width: 65%;
+	float: right;
+	margin-right: 10px;
+}
+
+#formbloque2 h2,
+#asistencia h2{
+	margin: 10px auto;
+	font-size: 12px;
+}
+
+#asistencia ul{
+	width: 100%px;
+	margin: 0 auto;
+	font-size: 12px;
+}
+
+#asistencia ul li{
+	float: left;
+}
+
+#asistencia ul li label:before{
+	content: ' | ';
+}
+
+#asistencia ul li:first-child label:before{
+	display: none;
+}
+
+#asistencia ul li input{
+	margin:3px 15px 0 5px;
+
+}
+
+#asistencia ul{
+	height: 30px;
+	border-bottom: solid 2px #d4d1ca;
+}
+
+#asistencia select{
+	width: auto;
+	background: #fff;
+	border: none;
+	text-align: center;
+	font-family: 'Montserrat';
+}
+
+#asistencia select option{
+	text-align: center;
+}
+
+
+#asistencia select:focus{
+	background: #fff;
+	border: solid 2px #d4d1ca;
+}
+
+#nopersonasinput{
+	margin: 0px 0 0 0px;
+}
+
+.nombresdemas textarea,
+.cancion textarea{
+	width: 100%;
+	height: 50px;
+}
+
+.alergia textarea{
+	width: 100%;
+	height: 30px;
+}
+
+#musica{
+	margin-top: 20px;
+}
+
+
+.buttons input{
+	background: #fff;
+	margin: 30px -5px 0 0;
+	text-align: center;
+	font-size: 10px;
+	font-family: "Muli", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+	color: #4C4C4C;
+	text-transform: uppercase; 
+	font-weight: bold;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+}
+
+.buttons input:hover{
+	background: #75dbd1;
+	cursor: pointer;
+}
+
+
+
+/*L O C A L I Z A C I Ó N***************************************************************/
+
+
+#cmloc{
+	width: 80%;
+	height: 70%;
+	margin: 0px auto;
+	background: url(../i/loc-bg.svg);	
+	background-position: bottom left;
+	background-size: auto 100%;
+	background-repeat: no-repeat; 
+	position: relative;
+	top: -40px;
+	overflow: hidden;
+
+}
+
+
+#localizacion{
+	width: 200px;
+	float: right;
+	position: relative;
+	top: 20%;
+	right: 100px;
+	text-align: center;
+	background-color: #fff;
+	padding: 20px;
+	border: solid 2px #d4d1ca;
+}
+
+#localizacion h1{
+
+	letter-spacing: 3px;
+	color: #d4d1ca;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#localizacion h1:after{
+	content: '_____________________________________________';
+	font-size: 10px;
+	display: block;
+	margin-bottom: 40px;
+	letter-spacing: -3px;
+}
+
+
+/*C O N T A C T O***************************************************************/
+
+
+#contacta h2{
+
+	letter-spacing: 3px;
+	color: #d4d1ca;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#contacta h2:after{
+	content: '_____________________________________________';
+	font-size: 10px;
+	display: block;
+	margin-bottom: 40px;
+	letter-spacing: -3px;
+}
+
+
+#contacta{
+	height: auto;
+	text-align: center;
+	margin-top: 25px;
+	padding: 20px;
+	float: none;
+}
+
+
+
+#contacta h1{
+	text-align: center;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+
+#contacta img{
+	width: 50px;
+}
+
+
+
+
+
+
+
+/***************************************************************************/
+/***************************************************************************/
+/***************************************************************************/
+/*RESPONSIVENESS************************************************************/
+
+
+@media only screen and (max-width: 978px) {	
+
+
+/*HEADER***************************************************************/
+#header{
+	display: none;
+}
+
+#headerzip{
+	display: block;
+	width: 80%;
+	height: 150px;
+	margin: 0 auto;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #d4d1ca;
+	text-align: center;
+}
+
+#mp{
+	width: 33%;
+	float: left;
+	position: relative;
+	z-index: 40;
+}
+
+#mp img{
+	height: 180px;
+	width: 180px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#hl{
+	width: 34%;
+	height: 30px;
+	float: left;
+	margin-top: 100px;
+}
+
+#hl a{
+	width: 25%;
+	float: left;
+}
+
+#hr{
+	width: 33%;
+	height: 30px;
+	float: right;
+	margin-top: 100px;
+}
+
+#hr a{
+	width: 33%;
+	float: right;
+}
+
+
+}
+
+@media only screen and (max-width: 900px) {	
+
+/*NOSOTROS***************************************************************/
+
+
+
+.mariana{
+	width: 60%;
+}
+
+
+.porma{
+	width: 60%;
+}
+
+
+
+.pablo{
+	width: 60%;
+}
+
+.porpa{
+	width: 60%;
+}
+
+
+
+/*MARIANA Y PABLO***************************************************************/
+
+
+.txtma{
+	width: 60%;
+}
+
+.txtpa{
+	width: 60%;
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 751px) {	
+
+	/*FOOTER***************************************************************/
+
+#footer{
+	display: none;
+}
+
+#footerzip{
+	width: 80%;
+	height: 10px;
+	margin: 0px auto;
+	text-align: center;
+	position: relative;
+	color: #d4d1ca;
+	top: -40px;
+	display: block;
+}
+
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {	
+/*HEADER***************************************************************/
+
+#headerzip{
+	display: none;
+}
+
+#header{
+	width: 95%;
+	height: 150px;
+	margin: 0 auto;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #d4d1ca;
+	text-align: inherit;
+	display: block;
+}
+
+#mp{
+	width: 40%;
+	float: left;
+	position: relative;
+	z-index: 40;
+	text-align: center;
+}
+
+#mp img{
+	height: 180px;
+	width: 180px;
+	margin: 0px auto;
+}
+
+#hl{
+	width: 30%;
+	height: 140px;
+	float: left;
+	margin-top: 10px;
+	text-align: left;
+}
+
+#hl h1{
+	width: 100%;
+	float: none;
+	display: inline-block;
+	margin: 7px 8px;
+}
+
+#hl h1 a{
+	width: 100%;
+}
+
+#hr{
+	width: 30%;
+	height: 140px;
+	float: right;
+	margin-top: 10px;
+	text-align: right;
+}
+
+#hr h1{
+	width: 95%;
+	float: none;
+	display: inline-block;
+	margin: 7px 8px 7px 0px;
+	text-align: right;
+}
+
+#hr h1 a{
+	width: 100%;
+	text-align: right;
+}
+
+/*MARCO***************************************************************/
+
+
+#cm{
+	width: 95%;	
+}
+
+/*NOSOTROS***************************************************************/
+
+
+
+.mariana{
+	width: 70%;
+}
+
+
+.porma{
+	width: 70%;
+}
+
+
+
+.pablo{
+	width: 70%;
+}
+
+.porpa{
+	width: 70%;
+}
+
+
+
+/*MARIANA Y PABLO***************************************************************/
+
+
+.txtma{
+	width: 70%;
+}
+
+.txtpa{
+	width: 70%;
+}
+
+/*L O C A L I Z A C I Ó N***************************************************************/
+
+
+#cmloc{
+	width: 95%;
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {	
+/*HEADER***************************************************************/
+
+
+
+#mp{
+	width: 50%;
+	float: left;
+	position: relative;
+	z-index: 40;
+}
+
+#mp img{
+	height: 180px;
+	width: auto;
+	margin: 0 auto;
+}
+
+#hl{
+	width: 25%;
+	height: 140px;
+	float: left;
+	margin-top: 10px;
+	text-align: left;
+}
+
+#hl h1{
+	width: 100%;
+	float: none;
+	display: inline-block;
+	margin: 7px 8px;
+}
+
+#hl h1 a{
+	width: 100%;
+}
+
+#hr{
+	width: 25%;
+	height: 140px;
+	float: right;
+	margin-top: 10px;
+	text-align: right;
+}
+
+#hr h1{
+	width: 95%;
+	float: none;
+	display: inline-block;
+	margin: 7px 8px 7px 0px;
+	text-align: right;
+}
+
+#hr h1 a{
+	width: 100%;
+	text-align: right;
+}
+
+
+/*NOSOTROS***************************************************************/
+
+
+#content,
+#contentnos{
+	z-index: 10;
+}
+
+#mb{
+	height: 75%;
+	z-index: 80;
+}
+
+#mt{
+	height: 25%;
+}
+
+.mariana{
+	width: 90%;
+	top: 70px;
+	position: relative;
+	z-index: 90;
+}
+
+
+.porma{
+	width: 140%;
+	z-index: 15;
+}
+
+
+
+.pablo{
+	width: 90%;
+	top: 70px;
+}
+
+.porpa{
+	width: 140%;
+	z-index: 15;
+}
+
+
+
+/*MARIANA Y PABLO***************************************************************/
+
+
+.txtma{
+	width: 70%;
+}
+
+.txtma h1,
+.txtpa{
+	display: none;
+}
+
+.txtpa{
+	width: 70%;
+}
+
+
+
+
+}
+
+
+
+/*@media only screen and (max-width: 475px)*/
+@media only screen and (max-width: 500px) {	
+/*HEADER***************************************************************/
+
+#header{
+	display: none;
+}
+
+#headerzip{
+	display: none;
+}
+
+#desplegable{
+	display: block;
+	width: 95%;
+	text-align: center;
+	margin: 0 auto;
+	text-transform: uppercase;
+}
+
+#mp{
+	width: 70%;
+	height: 150px;
+	float: left;
+	text-align: center;
+}
+
+#mp img{
+	width: 150px;
+	height: auto;
+	margin: 0 auto;
+}
+
+#hl{
+	width: 15%;
+	float: left;
+}
+
+#hl img{
+	margin-top: 5px;
+}
+
+#hr{
+	width: 15%;
+	float: right;
+}
+
+#hr a img{
+	position: relative;
+	right: 25px;
+	top: 5px;
+}
+
+#menudesp{
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+#menudesp h1 {
+	width: 100%;
+	height: 20px;
+	padding-top: 20px;
+	display: inline-block;
+	border-top: 1px solid #d4d1ca;
+}
+
+.collapse{display:none}.collapse.in{
+	display:block
+}
+tr.collapse.in{
+	display:table-row
+}
+tbody.collapse.in{
+	display:table-row-group
+}
+.collapsing{
+	position:relative;
+	height:0;
+	overflow:hidden;
+	-webkit-transition-timing-function:ease;
+	-o-transition-timing-function:ease;
+	transition-timing-function:ease;
+	-webkit-transition-duration:.35s;
+	-o-transition-duration:.35s;
+	transition-duration:.35s;
+	-webkit-transition-property:height,visibility;
+	-o-transition-property:height,visibility;
+	transition-property:height,visibility
+}
+
+/*MARCO***************************************************************/
+
+
+#cm{
+	height: 75%;
+}
+
+/*MARIANA Y PABLO***************************************************************/
+
+#contentnos{
+	display: none;
+}
+
+#contentnosmob{
+	display: block;
+}
+
+
+
+.txtma{
+	width: 55%;
+	float: left;
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	color: #8c8b88;
+	background: #fff;
+	padding: 10px;
+}
+
+.txtma a h1,
+.txtpa a h1{
+	font-size: 15px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.txtma a h1:before,
+.txtpa a h1:before{
+	content: '__________';
+	font-size: 20px;
+	display: block;
+	margin-bottom:20px;
+	letter-spacing: -3px;
+	color: #d4d1ca;
+}
+
+.txtpa{
+	width: 55%;
+	float: right;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	color: #8c8b88;
+	background: #fff;
+	padding: 10px;
+}
+}
